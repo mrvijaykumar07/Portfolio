@@ -4,7 +4,6 @@ import {
   FaLinkedin,
   FaInstagram,
   FaFacebook,
-  FaGlobe,
   FaTelegramPlane,
   FaPhone,
   FaEnvelope,
@@ -31,11 +30,6 @@ const About = () => {
       <div className="container mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
         {/* Profile Image */}
         <div className="flex justify-center flex-col py-10 justify-center ">
-          {/* <img
-            src="/assets/images/camerawalaphoto.jpg"
-            alt="Bijaya Kumar"
-            className="w-60 h-60 object-cover rounded-md shadow-lg justify-center items-center "
-          /> */}
 
           {/* Personal Info */}
           <p className="text-lg text-gray-300 mb-4">

@@ -21,9 +21,9 @@ const Skillssection = () => {
     { icon: logoCss3, title: "CSS3" },
     { icon: code, title: "Java" },
     { icon: brushOutline, title: "UI/UX Design" },
-    { icon: <SiExpress size={40}  />, title: "Express" }, // ✅ Direct JSX
-    { icon: <SiMongodb size={40} />, title: "MongoDB" }, // ✅ Direct JSX
-    { icon: <SiMysql size={40}  />, title: "MySQL" }, // ✅ Direct JSX
+    { icon: <SiExpress size={40}  />, title: "Express" }, 
+    { icon: <SiMongodb size={40} />, title: "MongoDB" }, 
+    { icon: <SiMysql size={40}  />, title: "MySQL" }, 
 
   ];
   return (

@@ -6,9 +6,6 @@ import {
   logoCss3,
   code,
   brushOutline,
-  logoTailwindCss,
-  logoDatabase,
-  logoGithub,
 } from "ionicons/icons";
 import { IonIcon } from "@ionic/react";
 import { SiExpress, SiMongodb, SiMysql } from "react-icons/si";

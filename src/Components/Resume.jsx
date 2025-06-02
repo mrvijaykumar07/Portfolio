@@ -2,20 +2,11 @@ import React from "react";
 import {
   FaGithub,
   FaLinkedin,
-  FaInstagram,
-  FaFacebook,
-  FaGlobe,
   FaTelegramPlane,
   FaPhone,
   FaEnvelope,
-  FaUniversity,
-  FaBookOpen,
-  FaAddressCard,
-  FaPaintBrush,
-  FaPen,
-  FaCamera,
+
 } from "react-icons/fa";
-import { SiGmail } from "react-icons/si";
 const Resume = () => {
   return (
     <section className="bg-white py-20  text-black  border border-gray-800 ">

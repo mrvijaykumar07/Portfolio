@@ -1,5 +1,5 @@
 import { IonIcon } from "@ionic/react";
-import { logoDribbble, logoInstagram, logoSkype, logoLinkedin } from "ionicons/icons";
+import {  logoInstagram,  logoLinkedin } from "ionicons/icons";
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
         {/* Contact Section */}
         <div>
           <h4 className="text-lg font-semibold">Get in touch</h4>
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kumarbijaybehera07@gmail.com" target="_blank" className="text-blue-400 hover:underline">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kumarbijaybehera07@gmail.com" target="_blank" rel="noreferrer" className="text-blue-400 hover:underline">
             kumarbijaybehera07@gmail.com
           </a>
         </div>

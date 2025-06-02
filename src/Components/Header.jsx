@@ -71,7 +71,7 @@ const Header = () => {
           {["Home", "Resume", "Services", "Portfolio", "Blog", "Contact"].map(
             (item) => (
               <li key={item}>
-                <a href="#" className="hover:text-blue-600 transition">
+                <a href="#home" className="hover:text-blue-600 transition">
                   {item}
                 </a>
               </li>

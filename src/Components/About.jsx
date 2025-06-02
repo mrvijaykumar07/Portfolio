@@ -121,6 +121,7 @@ const About = () => {
             <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=kumarbijaybehera07@gmail.com"
               target="_blank"
+              rel="noreferrer"
               title="Gmail"
               className="bg-transparent text-white p-2 rounded-full hover:scale-110 transition"
             >
@@ -129,7 +130,7 @@ const About = () => {
             <a
               href="https://t.me/mrvijaykumar07"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noreferrer"
               title="Telegram"
               className="bg-transparent text-white p-2 rounded-full hover:scale-110 transition"
             >
@@ -138,7 +139,7 @@ const About = () => {
             <a
               href="https://github.com/mrvijaykumar07"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noreferrer"
               title="GitHub"
               className="bg-transparent text-white p-2 rounded-full hover:scale-110 transition"
             >
@@ -148,7 +149,7 @@ const About = () => {
             <a
               href="https://www.linkedin.com/in/bijayakumar07"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noreferrer"
               title="LinkedIn"
               className="bg-transparent text-white p-2 rounded-full hover:scale-110 transition"
             >
@@ -158,7 +159,7 @@ const About = () => {
             <a
               href="https://www.instagram.com/mrvijaykumar07/"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noreferrer"
               title="Instagram"
               className="bg-transparent text-white p-2 rounded-full hover:scale-110 transition"
             >
@@ -167,7 +168,7 @@ const About = () => {
             <a
               href="https://facebook.com/bijay.kb.5"
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noreferrer"
               title="Facebook"
               className="bg-transparent text-white p-2 rounded-full hover:scale-110 transition"
             >

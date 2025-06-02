@@ -1,5 +1,5 @@
-// import { downloadOutline } from "ionicons/icons";
-import { IonIcon } from "@ionic/react";
+
+
 import Photosection from "./Photosection";
 
 import {
@@ -9,14 +9,11 @@ import {
   logoCss3,
   code,
   brushOutline,
-  logoTailwindCss,
-  logoDatabase,
-  logoGithub,
 } from "ionicons/icons";
 import Skillssection from "./Skillssection";
 import Projects from "./Projects";
 import About from "./About";
-// import { IonIcon } from "@ionic/react";
+
 
 const Main = () => {
   const skills = [

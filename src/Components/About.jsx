@@ -110,11 +110,13 @@ const About = () => {
             </div>
           </div>
 
+
           {/* Social Media Links */}
           <div className="flex items-center gap-2">
             <FaAddressCard className="text-xl" />
             <strong className="text-xl">Important Links:</strong>
           </div>
+
           <div className="mt-4 flex flex-wrap gap-4 text-2xl">
             <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=kumarbijaybehera07@gmail.com"
@@ -142,6 +144,7 @@ const About = () => {
             >
               <FaGithub />
             </a>
+
             <a
               href="https://www.linkedin.com/in/bijayakumar07"
               target="_blank"

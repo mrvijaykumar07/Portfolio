@@ -9,34 +9,34 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between py-4 px-6">
         {/* Logo (Left Side) */}
         <Link to="/" className="text-2xl font-extrabold text-gray-900">
-  <img
-    src="/assets/images/logo.svg"
-    alt="Pfolio home"
-    className="w-40"
-  />
-</Link>
+          <img
+            src="/assets/images/logo.svg"
+            alt="Pfolio home"
+            className="w-40"
+          />
+        </Link>
 
-<nav className="hidden md:flex space-x-6 text-white font-medium">
-  {/* Manual Navigation Items */}
-  <Link to="/" className="hover:text-blue-600 transition">
-    Home
-  </Link>
-  
-  <Link to="/resume" className="hover:text-blue-600 transition">
-    Resume
-  </Link>
+        <nav className="hidden   md:flex space-x-6 text-white font-medium">
+          {/* Manual Navigation Items */}
+          <Link to="/" className="hover:text-blue-600 transition">
+            Home
+          </Link>
 
-  <Link to="/projects" className="hover:text-blue-600 transition">
-    Projects
-  </Link>
+          <Link to="/resume" className="hover:text-blue-600 transition">
+            Resume
+          </Link>
 
-  <Link to="/skill" className="hover:text-blue-600 transition">
-    Skills
-  </Link>
+          <Link to="/projects" className="hover:text-blue-600 transition">
+            Projects
+          </Link>
 
-  <Link to="/contact" className="hover:text-blue-600 transition">
-    Contact
-  </Link>
+          <Link to="/skill" className="hover:text-blue-600 transition">
+            Skills
+          </Link>
+
+          <Link to="/contact" className="hover:text-blue-600 transition">
+            Contact
+          </Link>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -67,17 +67,47 @@ const Header = () => {
           navOpen ? "block" : "hidden"
         }`}
       >
-        <ul className="flex flex-col items-center py-4 space-y-4 text-gray-800 font-medium">
-          {["Home", "Resume", "Services", "Portfolio", "Blog", "Contact"].map(
-            (item) => (
-              <li key={item}>
-                <a href="#home" className="hover:text-blue-600 transition">
-                  {item}
-                </a>
-              </li>
-            )
-          )}
-        </ul>
+        
+<ul className="flex flex-col items-center py-4 space-y-4    bg-gray-800 text-white text-xl font-medium">
+  <li>
+    <Link
+      to="/"
+      className="hover:text-blue-600 transition"
+      onClick={() => setNavOpen(false)}
+    >
+      Home
+    </Link>
+  </li>
+
+  <li>
+    <Link
+      to="/projects"
+      className="hover:text-blue-600 transition"
+      onClick={() => setNavOpen(false)}
+    >
+      Projects
+    </Link>
+  </li>
+  <li>
+    <Link
+      to="/skill"
+      className="hover:text-blue-600 transition"
+      onClick={() => setNavOpen(false)}
+    >
+      Skills
+    </Link>
+  </li>
+  <li>
+    <Link
+      to="/contact"
+      className="hover:text-blue-600 transition"
+      onClick={() => setNavOpen(false)}
+    >
+      Contact
+    </Link>
+  </li>
+</ul>
+
       </nav>
     </header>
   );

@@ -6,8 +6,8 @@ const Photosection = () => {
   return (
     <section className="hero bg-gray-800 py-20 mx-auto flex w-full h-screen  px-2  md:px-44">
       <div className="flex flex-col  justify-center container  px-6">
-        <h1 className="text-8xl font-bold mb-3">Bijaya</h1>
-        <h1 className="text-8xl font-bold mb-3"> Kumar</h1>
+        <h1 className="md:text-8xl text-7xl font-bold mb-3">Bijaya</h1>
+        <h1 className="md:text-8xl text-7xl font-bold mb-3"> Kumar</h1>
         <p className="text-xl text-gray-50 font-bold">MERN - Stack Developer</p>
 
         <div>

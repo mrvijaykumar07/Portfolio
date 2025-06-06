@@ -30,14 +30,9 @@ const About = () => {
       <div className="container mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
         {/* Profile Image */}
         <div className="flex justify-center flex-col py-10 justify-center ">
-
           {/* Personal Info */}
           <p className="text-lg text-gray-300 mb-4">
-            I currently pursuing a Master of Computer Application (MCA) at VSSUT
-            Burla. With a strong foundation in software development and deep
-            learning, I aim to leverage my skills to build impactful solutions.
-            I am passionate about exploring new technologies and continuously
-            enhancing my expertise in various areas of computer science.
+            I have completed my Master of Computer Application (MCA) from VSSUT Burla. I have a strong foundation in software development, deep learning, and full-stack web technologies. I have built projects using React.js, Node.js, Express.js, MongoDB(MERN STack), and also worked with Deep machine learning image classification projects. I'm passionate about learning new technologies and continuously improving my skills. My interests include MERN Stack programming, UI design, and building smart and efficient solutions that solve real-world problems.
           </p>
           {/* Hobbies */}
           <div className="mb-6 space-y-2">
@@ -109,7 +104,6 @@ const About = () => {
               </a>
             </div>
           </div>
-
 
           {/* Social Media Links */}
           <div className="flex items-center gap-2">
